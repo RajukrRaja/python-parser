@@ -122,7 +122,7 @@ class EnhancedResumeAnalyzer:
         
         self.file_info = {
             "filename": file_obj.filename,
-            "size_kb": round(file_obj.size / 1024, 1),
+            "size_kb": 0,
             "word_count": len(text.split()),
             "page_count": 1,
             "line_count": len(self.lines)
